@@ -5,10 +5,12 @@
 ```php
 <?php
 
-namespace Avambro;
+namespace Mode\Developer;
 
 class About extends Me
 {
+    
+
     public function getCurrentWorkplace()
     {
         return [
@@ -22,14 +24,14 @@ class About extends Me
     public function getDailyKnowledge()
     {
         return [
-            Php::class,
-            Javascript::class,
-            Laravel::class,
-            Vuejs::class,
-            NodeJs::class,
-            TailwindCss::class,
-            ElmentUI::class,
-            Aws::class,
+            PHP,
+            Typescript,            
+            VueJs,
+            NodeJs,
+            AWS,
+            Python,
+            Cybersecurity,
+            Team_Lead,
         ];
     }
 
